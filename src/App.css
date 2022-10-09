@@ -41,6 +41,7 @@ nav{
   display: flex;
   justify-content: space-between;
   padding: 5px 40px;
+  align-items: center;
 }
 
 .toggle-btn{
@@ -68,7 +69,19 @@ nav{
 
 @media screen and (max-width: 425px){
   .navbar-toggle{
-    display: none;
+     display: none;
+     position: absolute;
+     top: 55px;
+     width: 80vw;
+     background: cadetblue;
+  }
+
+  .expanded{
+    display: block;
+  }
+
+  .navbar-toggle ul{
+    display: block;
   }
   .toggle-btn{
     display: block;
