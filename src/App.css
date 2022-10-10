@@ -129,4 +129,14 @@ h2{
   .toggle-btn{
     display: block;
   }
+  .todo-list{
+    flex-direction: column;
+  }
+  form{
+    width: 100%;
+  }
+  .todos{
+    width: 100%;
+    margin-top: 10px;
+  }
 }
