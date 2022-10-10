@@ -1,6 +1,7 @@
+/*jshint esversion: 6 */
 import React from 'react';
-import TodoForm from './TodoForm';
-import Todo from './Todo';  
+import TodoForm from '../../components/TodoForm';
+import Todo from '../../components/Todo';  
   
   
   function TodoPage() {

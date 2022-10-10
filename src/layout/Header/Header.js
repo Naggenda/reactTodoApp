@@ -15,9 +15,7 @@ const Header = () => {
     <nav className="navbar">
       <div>
         <h1>
-          <NavLink to="/" className="logo">
-            TodoApp
-          </NavLink>
+          <NavLink to="/" className="logo">TodoApp</NavLink>
         </h1>
       </div>
 
