@@ -28,7 +28,9 @@ import Todo from '../../components/Todo';
       <div>
         <div className="todo-list">
           <TodoForm addTodo={addTodo} />
-          {todos.map((todo, index) => (
+          <div className="todos">
+          <h2>My Todo Items.</h2>
+          {todos.map((todo, index) => (       
             <Todo
               key={index}
               index={index}
@@ -37,6 +39,7 @@ import Todo from '../../components/Todo';
               removeTodo={removeTodo}
             />
           ))}
+          </div>
         </div>
       </div>
     );

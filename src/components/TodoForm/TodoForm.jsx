@@ -19,6 +19,7 @@ function TodoForm({ addTodo }) {
           value={value}
           onChange={e => setValue(e.target.value)}
         />
+        <button onClick={handleSubmit}>Add</button>
       </form>
     );
   }
