@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/*jshint esversion: 8 */
 import React, { useRef, useState, useEffect } from 'react';
 
 const Form = () => {
