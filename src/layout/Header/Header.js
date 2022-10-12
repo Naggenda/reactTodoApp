@@ -18,13 +18,11 @@ const Header = () => {
           <NavLink to="/" className="logo">TodoApp</NavLink>
         </h1>
       </div>
-
       <div className="toggle-btn">
       <button onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
               }}>Toggle</button>
       </div>
-
       <div className={isNavExpanded ? "navbar-toggle expanded" : "navbar-toggle"}>
         <ul>
           <li>
@@ -56,5 +54,4 @@ const Header = () => {
     </nav>
   );
 };
-
 export default Header;
