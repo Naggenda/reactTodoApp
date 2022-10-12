@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Signup from './views/Signup';
-import Todo from './views/Todo';
+import Todo from './views/TodoPage';
 
 import Header from './layout/Header';
 import './App.css';

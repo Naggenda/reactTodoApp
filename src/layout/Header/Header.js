@@ -7,17 +7,15 @@ const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   let activeStyle = {
-    textDecoration: "underline";
+    textDecoration: "underline"
   };
 
-  let activeClassName = "underline";
+  // let activeClassName = "underline";
   return (
     <nav className="navbar">
       <div>
         <h1>
-          <NavLink to="/" className="logo">
-            TodoApp
-          </NavLink>
+          <NavLink to="/" className="logo">TodoApp</NavLink>
         </h1>
       </div>
 
@@ -27,9 +25,7 @@ const Header = () => {
               }}>Toggle</button>
       </div>
 
-      <div
-        className={isNavExpanded ? "navbar-toggle expanded" : "navbar-toggle"}
-      >
+      <div className={isNavExpanded ? "navbar-toggle expanded" : "navbar-toggle"}>
         <ul>
           <li>
             <NavLink
