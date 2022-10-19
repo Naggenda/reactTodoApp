@@ -1,7 +1,6 @@
 /*jshint esversion: 6 */
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
-// import ToggleBtn from "../../components/Togglebtn";
 
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
